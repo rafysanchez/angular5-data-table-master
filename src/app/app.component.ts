@@ -1,7 +1,7 @@
 import {AfterViewInit, Component, ViewChild} from '@angular/core';
 import {MatPaginator, MatSort, MatTableDataSource} from '@angular/material';
-import {User} from "./User";
-import {ApiService} from "./app.service";
+import {User} from './User';
+import {ApiService} from './app.service';
 
 @Component({
   selector: 'app-root',
@@ -38,7 +38,7 @@ export class AppComponent implements AfterViewInit {
     this.apiService.getUsers().subscribe(
       data => {
         this.dataSource.data = data;
-        //this.length = data.result.length;
+        // this.length = data.result.length;
       }
     );
   }
