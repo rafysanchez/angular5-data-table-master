@@ -53,8 +53,13 @@ export interface Element {
 
 const ELEMENT_DATA: Element[] = [
   {position: 1, firstName: 'John', lastName: 'Doe', email: 'john@gmail.com'},
-  {position: 1, firstName: 'Mike', lastName: 'Hussey', email: 'mike@gmail.com'},
-  {position: 1, firstName: 'Ricky', lastName: 'Hans', email: 'ricky@gmail.com'},
-  {position: 1, firstName: 'Martin', lastName: 'Kos', email: 'martin@gmail.com'},
-  {position: 1, firstName: 'Tom', lastName: 'Paisa', email: 'tom@gmail.com'}
+  {position: 2, firstName: 'Mike', lastName: 'Hussey', email: 'mike@gmail.com'},
+  {position: 3, firstName: 'Ricky', lastName: 'Hans', email: 'ricky@gmail.com'},
+  {position: 4, firstName: 'Martin', lastName: 'Kos', email: 'martin@gmail.com'},
+  {position: 5, firstName: 'Tom', lastName: 'Paisa', email: 'tom@gmail.com'},
+  {position: 6, firstName: 'ann', lastName: 'uiol', email: 'john@gmail.com'},
+  {position: 7, firstName: 'zabel', lastName: 'resd', email: 'mike@gmail.com'},
+  {position: 8, firstName: 'roger', lastName: 'fres', email: 'ricky@gmail.com'},
+  {position: 9, firstName: 'bill', lastName: 'cres', email: 'martin@gmail.com'},
+  {position: 10, firstName: 'tim', lastName: 'eres', email: 'tom@gmail.com'}
 ];
