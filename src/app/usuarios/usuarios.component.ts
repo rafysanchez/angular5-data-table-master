@@ -1,14 +1,14 @@
 import {AfterViewInit, Component, ViewChild} from '@angular/core';
 import {MatPaginator, MatSort, MatTableDataSource} from '@angular/material';
-import {User} from './User';
-import {ApiService} from './app.service';
+import {User} from '../User';
+import {ApiService} from '../app.service';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-usuarios',
+  templateUrl: './usuarios.component.html',
+  styleUrls: ['./usuarios.component.css']
 })
-export class AppComponent implements AfterViewInit {
+export class UsuariosComponent implements AfterViewInit {
   displayedColumns = ['position', 'firstName', 'lastName', 'email'];
   dataSource = new MatTableDataSource<User>();
 
@@ -63,3 +63,6 @@ const ELEMENT_DATA: Element[] = [
   {position: 9, firstName: 'bill', lastName: 'cres', email: 'martin@gmail.com'},
   {position: 10, firstName: 'tim', lastName: 'eres', email: 'tom@gmail.com'}
 ];
+
+
+
